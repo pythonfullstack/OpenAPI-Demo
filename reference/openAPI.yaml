@@ -156,6 +156,26 @@ paths:
       responses:
         '200':
           description: OK
+  /test:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+      operationId: get-test
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+    post:
+      summary: ''
+      operationId: post-test
+      responses:
+        '200':
+          description: OK
 components:
   schemas:
     User:
@@ -198,6 +218,7 @@ components:
         - lastName
         - email
         - emailVerified
+      x-internal: true
     Test:
       title: Test
       type: object
