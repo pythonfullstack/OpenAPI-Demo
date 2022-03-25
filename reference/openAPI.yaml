@@ -185,3 +185,9 @@ components:
         - lastName
         - email
         - emailVerified
+    Test:
+      title: Test
+      type: object
+      properties:
+        id:
+          type: string
