@@ -7,7 +7,7 @@
     "contact": {
       "email": "support@searchstax.com"
     },
-    "version": 0.1
+    "version": "0.1"
   },
   "host": "searchcloud.searchstax.co",
   "schemes": [
@@ -18,7 +18,6 @@
     "application/json"
   ],
   "produces": [
-    "application/json",
     "application/json"
   ],
   "securityDefinitions": {
@@ -36,10 +35,10 @@
     }
   ],
   "paths": {
-    "/{account_id}/environment/": {
+    "/{account_id}/environment": {
       "get": {
         "operationId": "Get Environments",
-        "description": "",
+        "description": "This is the endpoint to get environments of an account.\n\n\n`asdfasdf`",
         "parameters": [
           {
             "name": "page",
@@ -168,7 +167,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "parameters": [
@@ -207,7 +206,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "parameters": [
@@ -330,7 +329,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "patch": {
@@ -458,7 +457,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "put": {
@@ -483,7 +482,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "patch": {
