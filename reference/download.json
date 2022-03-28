@@ -38,7 +38,7 @@
   "paths": {
     "/{account_id}/environment/": {
       "get": {
-        "operationId": "environment_list",
+        "operationId": "Get Environments",
         "description": "",
         "parameters": [
           {
@@ -97,7 +97,7 @@
     },
     "/{account_id}/index/": {
       "get": {
-        "operationId": "index_list",
+        "operationId": "Get Indices",
         "description": "",
         "parameters": [
           {
@@ -146,7 +146,7 @@
         ]
       },
       "post": {
-        "operationId": "index_create",
+        "operationId": "Create an Index",
         "description": "",
         "parameters": [
           {
@@ -181,7 +181,7 @@
     },
     "/{account_id}/index/{id}/": {
       "get": {
-        "operationId": "index_read",
+        "operationId": "Get an Index",
         "description": "",
         "parameters": [],
         "responses": {
@@ -197,7 +197,7 @@
         ]
       },
       "delete": {
-        "operationId": "index_delete",
+        "operationId": "Delete an Index",
         "description": "",
         "parameters": [],
         "responses": {
@@ -226,7 +226,7 @@
     },
     "/{account_id}/index/{index_id}/handler/": {
       "get": {
-        "operationId": "index_handler_list",
+        "operationId": "Get Handlers of an Index",
         "description": "",
         "parameters": [
           {
@@ -291,7 +291,7 @@
     },
     "/{account_id}/index/{index_id}/handler/{id}/": {
       "get": {
-        "operationId": "index_handler_read",
+        "operationId": "Get a Handler of an Index",
         "description": "",
         "parameters": [],
         "responses": {
@@ -379,7 +379,7 @@
     },
     "/{account_id}/index/{index_id}/token/": {
       "get": {
-        "operationId": "index_token_list",
+        "operationId": "Get Tokens of an Index",
         "description": "",
         "parameters": [
           {
@@ -444,7 +444,7 @@
     },
     "/{account_id}/index/{index_id}/token/{id}/": {
       "get": {
-        "operationId": "index_token_read",
+        "operationId": "Get a Token of an Index",
         "description": "",
         "parameters": [],
         "responses": {
@@ -532,7 +532,7 @@
     },
     "/{account_id}/limit/": {
       "get": {
-        "operationId": "limit_list",
+        "operationId": "Get Limits",
         "description": "",
         "parameters": [
           {
