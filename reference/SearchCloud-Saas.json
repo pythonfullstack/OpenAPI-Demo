@@ -83,8 +83,9 @@
           }
         },
         "tags": [
-          "environment"
-        ]
+          "Environment"
+        ],
+        "summary": ""
       },
       "parameters": [
         {
@@ -142,7 +143,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "post": {
@@ -193,7 +194,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "delete": {
@@ -271,7 +272,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "parameters": [
@@ -302,12 +303,13 @@
             }
           }
         },
+        "summary": "",
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "put": {
-        "operationId": "index_handler_update",
+        "operationId": "Update a Handler of an Index",
         "description": "",
         "parameters": [
           {
@@ -332,7 +334,7 @@
         ]
       },
       "patch": {
-        "operationId": "index_handler_partial_update",
+        "operationId": "Update fields of a Handler of an Index",
         "description": "",
         "parameters": [
           {
@@ -353,7 +355,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "parameters": [
@@ -424,7 +426,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "parameters": [
@@ -460,7 +462,7 @@
         ]
       },
       "put": {
-        "operationId": "index_token_update",
+        "operationId": "Update a Token of an Index",
         "description": "",
         "parameters": [
           {
@@ -485,7 +487,7 @@
         ]
       },
       "patch": {
-        "operationId": "index_token_partial_update",
+        "operationId": "Update fields of a Token of an Index",
         "description": "",
         "parameters": [
           {
@@ -506,7 +508,7 @@
           }
         },
         "tags": [
-          "index"
+          "Index"
         ]
       },
       "parameters": [
@@ -577,7 +579,7 @@
           }
         },
         "tags": [
-          "limit"
+          "Limit"
         ]
       },
       "parameters": [
