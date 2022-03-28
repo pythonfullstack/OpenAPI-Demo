@@ -37,8 +37,8 @@
   "paths": {
     "/{account_id}/environment": {
       "get": {
-        "operationId": "Get Environments",
-        "description": "This is the endpoint to get environments of an account.\n\n\n`asdfasdf`",
+        "operationId": "1",
+        "description": "This is the endpoint to get environments of an account.",
         "parameters": [
           {
             "name": "page",
@@ -84,7 +84,7 @@
         "tags": [
           "Environment"
         ],
-        "summary": ""
+        "summary": "Get Environments"
       },
       "parameters": [
         {
@@ -95,10 +95,10 @@
         }
       ]
     },
-    "/{account_id}/index/": {
+    "/{account_id}/index": {
       "get": {
-        "operationId": "Get Indices",
-        "description": "",
+        "operationId": "2",
+        "description": "This Endpoint is to get indices of an account.",
         "parameters": [
           {
             "name": "page",
@@ -143,11 +143,12 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Get Indices"
       },
       "post": {
-        "operationId": "Create an Index",
-        "description": "",
+        "operationId": "3",
+        "description": "This Endpoint is to create an index of an account.",
         "parameters": [
           {
             "name": "data",
@@ -168,7 +169,8 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Create an Index"
       },
       "parameters": [
         {
@@ -179,10 +181,10 @@
         }
       ]
     },
-    "/{account_id}/index/{id}/": {
+    "/{account_id}/index/{id}": {
       "get": {
-        "operationId": "Get an Index",
-        "description": "",
+        "operationId": "4",
+        "description": "This Endpoint is to get an index with its {id} of an account.",
         "parameters": [],
         "responses": {
           "200": {
@@ -194,11 +196,12 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Get an Index"
       },
       "delete": {
-        "operationId": "Delete an Index",
-        "description": "",
+        "operationId": "5",
+        "description": "This Endpoint is to delte an index with its {id} of an account.",
         "parameters": [],
         "responses": {
           "204": {
@@ -207,7 +210,8 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Delete an Index"
       },
       "parameters": [
         {
@@ -224,10 +228,10 @@
         }
       ]
     },
-    "/{account_id}/index/{index_id}/handler/": {
+    "/{account_id}/index/{index_id}/handler": {
       "get": {
-        "operationId": "Get Handlers of an Index",
-        "description": "",
+        "operationId": "6",
+        "description": "This Endpoint is to get handlers of an index of an account.",
         "parameters": [
           {
             "name": "page",
@@ -272,7 +276,8 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Get Handlers of an Index"
       },
       "parameters": [
         {
@@ -289,10 +294,10 @@
         }
       ]
     },
-    "/{account_id}/index/{index_id}/handler/{id}/": {
+    "/{account_id}/index/{index_id}/handler/{id}": {
       "get": {
-        "operationId": "Get a Handler of an Index",
-        "description": "",
+        "operationId": "7",
+        "description": "This Endpoint is to get a handler with its {id} of an index of an account.",
         "parameters": [],
         "responses": {
           "200": {
@@ -302,14 +307,14 @@
             }
           }
         },
-        "summary": "",
+        "summary": "Get a Handler of an Index",
         "tags": [
           "Index"
         ]
       },
       "put": {
-        "operationId": "Update a Handler of an Index",
-        "description": "",
+        "operationId": "8",
+        "description": "This Endpoint is to update a handler with its {id} of an index of an account.",
         "parameters": [
           {
             "name": "data",
@@ -330,11 +335,12 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Update a Handler of an Index"
       },
       "patch": {
-        "operationId": "Update fields of a Handler of an Index",
-        "description": "",
+        "operationId": "9",
+        "description": "This Endpoint is to update values of a handler with its {id} of an index of an account.",
         "parameters": [
           {
             "name": "data",
@@ -355,7 +361,8 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Update fields of a Handler of an Index"
       },
       "parameters": [
         {
@@ -378,10 +385,10 @@
         }
       ]
     },
-    "/{account_id}/index/{index_id}/token/": {
+    "/{account_id}/index/{index_id}/token": {
       "get": {
-        "operationId": "Get Tokens of an Index",
-        "description": "",
+        "operationId": "10",
+        "description": "This Endpoint is to get tokens of an index of an account.",
         "parameters": [
           {
             "name": "page",
@@ -426,7 +433,8 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Get Tokens of an Index"
       },
       "parameters": [
         {
@@ -443,10 +451,10 @@
         }
       ]
     },
-    "/{account_id}/index/{index_id}/token/{id}/": {
+    "/{account_id}/index/{index_id}/token/{id}": {
       "get": {
-        "operationId": "Get a Token of an Index",
-        "description": "",
+        "operationId": "11",
+        "description": "This Endpoint is to get a token of an index of an account.",
         "parameters": [],
         "responses": {
           "200": {
@@ -458,11 +466,12 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Get a Token of an Index"
       },
       "put": {
-        "operationId": "Update a Token of an Index",
-        "description": "",
+        "operationId": "12",
+        "description": "This Endpoint is to update a token of an index of an account.",
         "parameters": [
           {
             "name": "data",
@@ -483,11 +492,12 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Update a Token of an Index"
       },
       "patch": {
-        "operationId": "Update fields of a Token of an Index",
-        "description": "",
+        "operationId": "13",
+        "description": "This Endpoint is to update values of a token of an index of an account.",
         "parameters": [
           {
             "name": "data",
@@ -508,7 +518,8 @@
         },
         "tags": [
           "Index"
-        ]
+        ],
+        "summary": "Update fields of a Token of an Index"
       },
       "parameters": [
         {
@@ -531,10 +542,10 @@
         }
       ]
     },
-    "/{account_id}/limit/": {
+    "/{account_id}/limit": {
       "get": {
-        "operationId": "Get Limits",
-        "description": "",
+        "operationId": "14",
+        "description": "This Endpoint is to get limits of an index of an account.",
         "parameters": [
           {
             "name": "page",
@@ -579,7 +590,8 @@
         },
         "tags": [
           "Limit"
-        ]
+        ],
+        "summary": "Get Limits"
       },
       "parameters": [
         {
@@ -1153,5 +1165,16 @@
         }
       }
     }
-  }
+  },
+  "tags": [
+    {
+      "name": "Environment"
+    },
+    {
+      "name": "Index"
+    },
+    {
+      "name": "Limit"
+    }
+  ]
 }

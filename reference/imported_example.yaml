@@ -168,3 +168,8 @@ definitions:
       - lastName
       - email
       - emailVerified
+securityDefinitions:
+  Token:
+    name: Authentication
+    type: apiKey
+    in: query
